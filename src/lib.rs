@@ -1,3 +1,7 @@
+mod echoer;
+
+pub use echoer::*;
+
 #[cfg(test)]
 mod tests {
     #[test]
